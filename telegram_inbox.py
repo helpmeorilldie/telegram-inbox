@@ -3,7 +3,7 @@ import time
 import requests
 
 TOKEN = os.environ["TELEGRAM_BOT_TOKEN"]
-ADMIN_ID = "6592441427"
+ADMIN_ID = int(os.environ["TELEGRAM_ADMIN_ID"])
 
 API = f"https://api.telegram.org/bot{TOKEN}"
 
